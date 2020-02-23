@@ -1,0 +1,147 @@
+<ion-content class="bg-content" color="bg-content">
+  <div class="header">
+    <ion-toolbar color="bg">
+      <ion-buttons slot="start">
+        <ion-button>
+          <ion-icon src="../../assets/icon/menu.svg"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+      <div class="infos">
+        <span>Chennai</span> 
+        <ion-icon src="../../assets/icon/angle-arrow-down.svg"></ion-icon>
+      </div>
+      
+      <ion-buttons slot="end">
+        <ion-button>
+          <ion-icon src="../../assets/icon/notifications.svg"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+    </ion-toolbar>
+    
+    <ion-segment scrollable>
+        <ion-col size="8">
+          <h6 class="active">Upcomming Appointement</h6>
+        </ion-col>
+        <ion-col size="8">
+          <h6>Completed Appointement</h6>
+        </ion-col>
+        <ion-col size="8">
+          <h6>Pandding Appointement</h6>
+        </ion-col>
+    </ion-segment>
+  </div>
+  <div class="books">
+    <div class="book" >
+         <div class="date">
+           <span>Friday,Oct 5 2018 - 11am</span>
+         </div>
+         <div class="clinic-infos" >
+            <ion-row (click)="go('/book')">
+                <ion-col size="2">
+                      <img class="avatar" src="../../assets/imgs/avatar.png"/>
+                </ion-col>
+                <ion-col size="10">
+                      <span class="title">Dr.Alexandra Reiher, MD</span>
+                      <span class="sub-title">General Physician, Surgery</span>
+                </ion-col>
+            </ion-row>
+            <ion-row (click)="go('/tabs/clinic')">
+                  <ion-col size="8">
+                        <span class="txt-address">Address</span>
+                        <span class="clinic">Akshaya Pet Clinic,</span>
+                        <p class="txt-address-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                  </ion-col>
+                  <ion-col size="4">
+                    <div class="map">
+
+                    </div>
+                  </ion-col>
+              </ion-row>
+        </div>
+          
+        <ion-row>
+          <ion-col class="btn" size="6">
+            <span>Reschedule</span>
+          </ion-col>
+          <ion-col class="btn"  size="6">
+            <span>Cancel</span>
+          </ion-col>
+        </ion-row>
+    </div>
+    <div class="book">
+            <div class="date">
+              <span>Friday,Oct 5 2018 - 11am</span>
+            </div>
+            <div class="clinic-infos">
+                  <ion-row>
+                    <ion-col size="2">
+                          <img class="avatar" src="../../assets/imgs/avatar.png"/>
+                    </ion-col>
+                    <ion-col size="10">
+                          <span class="title">Dr.Alexandra Reiher, MD</span>
+                          <span class="sub-title">General Physician, Surgery</span>
+                    </ion-col>
+                  </ion-row>
+                  <ion-row>
+                      <ion-col size="8">
+                            <span class="txt-address">Address</span>
+                            <span class="clinic">Akshaya Pet Clinic,</span>
+                            <p class="txt-address-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                      </ion-col>
+                      <ion-col size="4">
+                          <div class="map">
+
+                          </div>
+                      </ion-col>
+                  </ion-row>
+            </div>
+                
+            <ion-row>
+              <ion-col class="btn" size="6">
+                <span>Reschedule</span>
+              </ion-col>
+              <ion-col class="btn"  size="6">
+                <span>Cancel</span>
+              </ion-col>
+            </ion-row>
+            
+      </div>
+      <div class="book">
+            <div class="date">
+              <span>Friday,Oct 5 2018 - 11am</span>
+            </div>
+            <div class="clinic-infos">
+                  <ion-row>
+                    <ion-col size="2">
+                          <img class="avatar" src="../../assets/imgs/avatar.png"/>
+                    </ion-col>
+                    <ion-col size="10">
+                          <span class="title">Dr.Alexandra Reiher, MD</span>
+                          <span class="sub-title">General Physician, Surgery</span>
+                    </ion-col>
+                  </ion-row>
+                  <ion-row>
+                      <ion-col size="8">
+                            <span class="txt-address">Address</span>
+                            <span class="clinic">Akshaya Pet Clinic,</span>
+                            <p class="txt-address-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                      </ion-col>
+                      <ion-col size="4">
+                          <div class="map">
+
+                          </div>
+                      </ion-col>
+                  </ion-row>
+            </div>
+            <ion-row>
+                <ion-col class="btn" size="6">
+                  <span>Reschedule</span>
+                </ion-col>
+                <ion-col class="btn"  size="6">
+                  <span>Cancel</span>
+                </ion-col>
+            </ion-row>
+            
+        </div>
+  </div>
+</ion-content>

@@ -1,0 +1,7 @@
+{
+  "name": "tail",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

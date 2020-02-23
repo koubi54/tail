@@ -1,0 +1,61 @@
+.bg-content{
+    background:#E7EBF2;
+}
+.header{
+    background: #875df0;
+    height: 35%;
+}
+.infos>span{
+    color: #fff;
+}
+ion-icon {
+    color: #fff;
+}
+.active{
+    background: rgba(255, 253, 253, 1) !important;
+}
+.categorie-img{
+    width: 80%;
+    height: 60px;
+    margin: auto;
+    background: rgba(255, 253, 253, 0.66);
+}
+.title-categorie{
+    font-size: 10px;
+    color: #fff;
+}
+.clinics{
+    width: 90%;
+    margin: auto;
+    margin-top: -10%;;
+}
+.clinics>.clinic{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 18px -5px #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+.txt-address{
+    display: block;
+    font-size: 12px;
+}
+.clinic-name{
+    font-size: 12px;
+    font-weight: bold;
+}
+.txt-distance-detail{
+    font-size: 10px;
+}
+.txt-distance-detail>span{
+    color:#9d9c9c;
+}
+.map{
+    width: 70px;
+    height: 70px;
+    background: #787878;
+    margin: auto;
+
+}

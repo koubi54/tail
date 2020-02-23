@@ -1,0 +1,225 @@
+.ion-color-bg {
+  --ion-color-base: var(--ion-color-bg);
+  --ion-color-base-rgb: var(--ion-color-bg-rgb);
+  --ion-color-contrast: var(--ion-color-bg-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-bg-contrast-rgb);
+  --ion-color-shade: var(--ion-color-bg-shade);
+  --ion-color-tint: var(--ion-color-bg-tint);
+}
+.bg-content{
+  background:#E7EBF2;
+}
+.infos>ion-icon{
+  position: relative;
+  top: 2px;
+  left: 10px;
+  font-size: 10pt;
+}
+.slides{
+  position: relative;
+  top: -60px;
+}
+.slid{
+  width: 100%;
+  height: 500px;
+  clip-path: polygon(0 0, 100% 0, 100% 61%, 0% 100%);
+}
+.slid-1{
+  background: url("../../assets/imgs/slide-1.png") #F7B400;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: 169px -71px;
+}
+.slid-2{
+  background: url("../../assets/imgs/slide-2.png");
+  background-size: cover;
+}
+.slid-3{
+  background: url("../../assets/imgs/slide-3.png");
+  background-size: cover;
+}
+.slid-1>h2{
+  color: #523D05;
+  font-size: 22pt;
+  width: 48%;
+  position: relative;
+  top: 100px;
+  left: 10px;
+}
+.slid-2>h2{
+  color: #fff;
+  font-size: 22pt;
+  width: 48%;
+  position: relative;
+  top: 100px;
+}
+.slid-1>.rectagle,.slid-2>.rectagle{
+  position: relative;
+    left: 0px;
+    top: 100px;
+    background: #fff;
+    width: 120px;
+    height: 60px;
+    border-top-right-radius: 34pt;
+    border-bottom-right-radius: 34pt;
+    padding:10px 0px 0px;
+    
+}
+.slid-1>.rectagle>.title,.slid-2>.rectagle>.title{
+  display: block;
+  font-size: 10pt;
+  margin: 0px;
+  color: #523D05;
+}
+.slid-1>.rectagle>.sub-title,.slid-2>.rectagle>.sub-title{
+  position: relative;
+  top: -5px;
+  font-size: 24pt;
+  font-weight: bold;
+  margin: 0px;
+  color: #523D05;
+}
+.rectagle-color{
+ color: #6B38EC !important;
+}
+.slid-2>.sub-title{
+  position: relative;
+  top: 120px;
+  left: -160px;
+  color: #fff;
+}
+.slid-2>.promos{
+  position: relative;
+  top: 90px;
+  left: -90px;
+  color: #fff;
+  background: #5FC639;
+  padding: 5px 10px;
+  font-size: 13px;
+  border-radius: 12pt;
+}
+.services{
+  z-index: 10;
+  padding: inherit;
+  position: relative;
+  margin-top: -200px;
+}
+.services>.section{
+  background: #fff;
+  width: 90%;
+  height: 120px;
+  margin: auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 18px -5px #ccc;
+}
+.section-img{
+  padding: 30px;
+}
+.section-txt{
+  padding: 30px 20px;
+}
+.section-txt>.promos{
+  display: block;
+  background: #5FC639;
+  color:#fff;
+  border-radius: 2px;
+  width: 60%;
+  padding: 2px;
+  text-align: center;
+}
+.section-txt>.title{
+  display: block;
+  font-size: 20px;
+}
+.section-txt>.sub-title{
+  font-size: 18px;
+  font-weight: bold;
+}
+.testimonials,.blogs{
+  position: relative;
+  padding: 0px 5%;
+}
+
+.testimonials>h1,.blogs>h1{
+  font-size: 20px;
+}
+.testimonials>.section{
+  background: #0B21D0;
+  height: auto;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px 40px;
+}
+.avatar{
+  width: 120px;
+  border-radius: 50%;
+}
+.txt-testimonial{
+  color: #fff;
+}
+.name-testimonial{
+  display: block;
+  font-weight: bold;
+  color: #fff;
+}
+.job-testimonial{
+  color: #fff;
+  font-size: 12px;
+}
+.blogs>.post{
+  width: 100%;
+  height: 320px;
+  border-radius: 5px;
+  background:#fff;
+  margin-bottom: 20px;
+  padding: 0px 30px;
+}
+.blogs>.post-img{
+  width: 100%;
+  height: 320px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 0px 30px;
+  background: url('../../assets/imgs/blog-1.png');
+  background-position: center;
+  background-size: cover;
+}
+.post-img>.title-post{
+  color: #fff;
+  position: relative;
+  top: 170px;
+  font-size: 20pt;
+}
+.post-img>.txt-post{
+  color: #fff;
+  position: relative;
+  top: 170px;
+  font-size: 12pt;
+}
+.post>.date{
+  position: relative;
+  top: 30px;
+  font-size: 12pt;
+}
+.post>.title-post{
+  position: relative;
+  top: 15px;
+  font-weight: bold;
+}
+.post>.txt-post{
+  position: relative;
+  top: 10px;
+  font-size: 11pt;
+}
+.author-infos{
+  position: relative;
+  top: 25px;
+}
+.author-name{
+  display: block;
+  font-weight: bold;
+}
+.author-details{
+  margin-top: 8px;
+}

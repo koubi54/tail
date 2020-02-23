@@ -1,0 +1,88 @@
+.bg-content{
+    background:#E7EBF2;
+}
+.header{
+    background: #875df0;
+    height: 30%;
+}
+.infos>span{
+    color: #fff;
+}
+.infos>ion-icon {
+    color: #fff;
+    position: relative;
+    top: 2px;
+    left: 10px;
+    font-size: 10pt;
+}
+h6{
+   color: #413560;
+}
+.active{
+    color:#fff;
+}
+.books{
+    width: 90%;
+    margin: auto;
+    margin-top: -15%;
+}
+.books>.book{
+  width: 100%;
+  height: auto;
+  background: #fff;
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 18px -5px #ccc;
+  border-radius: 5px;
+}
+.books>.book>.date{
+    border-bottom: 1px solid #ccc;
+    padding: 5px 10px;
+}
+.date>span{
+    font-size: 12px;
+    font-weight: 500;
+}
+.avatar{
+    border-radius: 50%;
+}
+.title{
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+}
+.sub-title{
+    display: block;
+    font-size: 11px;
+    color: #787878;
+}
+.map{
+    width: 70px;
+    height: 70px;
+    background: #787878;
+    margin: auto;
+
+}
+.txt-address{
+    display: block;
+    font-size: 12px;
+}
+
+.clinic{
+    font-size: 12px;
+    font-weight: bold;
+}
+.clinic-infos{
+    padding: 5px 10px 10px 10px;
+}
+.txt-address-detail{
+    margin: 0;
+    font-size: 10px;
+}
+.btn{
+    text-align: center;
+    background: #f7f7f7;
+    padding: 10px;
+}
+.btn>span{
+    font-size: 12px;
+}

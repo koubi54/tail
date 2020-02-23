@@ -1,0 +1,154 @@
+<ion-content class="bg-content" color="bg-content">
+  <ion-toolbar color="bg">
+    <ion-buttons slot="start">
+      <ion-button>
+        <ion-icon src="../../assets/icon/menu.svg"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <div class="infos">
+      <span>Chennai</span> 
+      <ion-icon src="../../assets/icon/angle-arrow-down.svg"></ion-icon>
+    </div>
+    
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon src="../../assets/icon/notifications.svg"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+  <ion-slides class="slides" pager="true" >
+      <ion-slide>
+        <div class="slid slid-1">
+          <h2>Get your pet vaccinated at your home</h2>
+          <div class="rectagle">
+               <span class="title">STARTS AT</span>
+               <span class="sub-title">130</span>
+          </div>
+        </div>
+      </ion-slide>
+      <ion-slide>
+        <div class="slid slid-2">
+          <span class="promos">50% OFF</span>
+          <span class="sub-title">In-Home</span>
+          <h2>Grooming</h2>
+          <div class="rectagle ">
+                <span class="title rectagle-color">STARTS AT</span>
+                <span class="sub-title rectagle-color">499</span>
+          </div>
+        </div>
+      </ion-slide>
+      <ion-slide>
+        <div class="slid slid-3">
+          
+        </div>
+      </ion-slide>
+  </ion-slides>
+  <div class="services">
+    <div class="section">
+       <ion-row>
+         <ion-col class="section-img" size="5">
+             <img src="../../assets/imgs/pet-house.svg"/>
+         </ion-col>
+         <ion-col class="section-txt" size="7">
+             <span class="promos">50% OFF</span>
+             <span class="title">Book</span>
+             <span class="sub-title">Home Visit</span>
+         </ion-col>
+       </ion-row>
+    </div>
+    <div class="section" (click)="go()">
+      <ion-row>
+        <ion-col class="section-img" size="5">
+            <img src="../../assets/imgs/hospital.svg"/>
+        </ion-col>
+        <ion-col class="section-txt" size="7">
+          <span class="promos">50% OFF</span>
+          <span class="title">Book</span>
+          <span class="sub-title">Clinics Near You</span>
+        </ion-col>
+      </ion-row>
+    </div>
+    <div class="section">
+      <ion-row>
+        <ion-col class="section-img" size="5">
+            <img src="../../assets/imgs/dog.svg"/>
+        </ion-col>
+        <ion-col class="section-txt" size="7">
+          <span class="promos">50% OFF</span>
+          <span class="sub-title">Grooming</span>
+      </ion-col>
+      </ion-row>
+    </div>
+  </div>
+  <div class="testimonials">
+    <h1>Testimonials</h1>
+    <div class="section">
+        <ion-slides pager="true" [options]="slideOpts">
+          <ion-slide style="height:500px">
+            <ion-row>
+              <ion-col size="12">
+                <img class="avatar" src="../../assets/imgs/avatar.png"/>
+              </ion-col>
+              <ion-col size="12">
+                  <p class="txt-testimonial">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis veniam alias amet cumque suscipit magnam recusandae assumenda rem commodi, sunt necessitatibus ut beatae voluptate? Ipsam illo nihil alias dolor voluptas.</p>
+              </ion-col>
+              <ion-col size="12">
+                <span class="name-testimonial">Dr.Suresh Gopal</span>
+                <span class="job-testimonial">Akshaya Pet Clinic</span>
+              </ion-col>
+            </ion-row>
+            
+          </ion-slide>
+          <ion-slide style="height:500px">
+            <ion-row>
+              <ion-col size="12">
+                <img class="avatar" src="../../assets/imgs/avatar.png"/>
+              </ion-col>
+              <ion-col size="12">
+                  <p class="txt-testimonial">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis veniam alias amet cumque suscipit magnam recusandae assumenda rem commodi, sunt necessitatibus ut beatae voluptate? Ipsam illo nihil alias dolor voluptas.</p>
+              </ion-col>
+              <ion-col  size="12">
+                <span class="name-testimonial">Dr.Suresh Gopal</span>
+                <span class="job-testimonial">Akshaya Pet Clinic</span>
+              </ion-col>
+            </ion-row>
+          </ion-slide>
+          <ion-slide style="height:500px">
+            <ion-row>
+              <ion-col size="12">
+                <img class="avatar" src="../../assets/imgs/avatar.png"/>
+              </ion-col>
+              <ion-col size="12">
+                  <p class="txt-testimonial">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis veniam alias amet cumque suscipit magnam recusandae assumenda rem commodi, sunt necessitatibus ut beatae voluptate? Ipsam illo nihil alias dolor voluptas.</p>
+              </ion-col>
+              <ion-col   size="12">
+                <span class="name-testimonial">Dr.Suresh Gopal</span>
+                <span class="job-testimonial">Akshaya Pet Clinic</span>
+              </ion-col  >
+            </ion-row>
+          </ion-slide>
+        </ion-slides>
+    </div>
+  </div>
+  <div class="blogs">
+    <h1>Community/Blogs</h1>
+    <div class="post-img">
+        <h2 class="title-post">Cras iaculis tincidunt felis, nec volutpat</h2>
+        <p class="txt-post">Morbi in sapien a eros vestibulum sagittis in a turpis…</p>
+    </div>
+    <div class="post">
+          <span class="date">JUNE 28</span>
+          <h2 class="title-post">Pellentesque sodales pulvinar nunc, eget tempus 2019</h2>
+          <p class="txt-post">Nunc tristique in leo a posuere. Praesent viverra elit id eleifend convallis. Pellen tesque sodales pulvinar nunc…</p>
+          <ion-row class="author-infos">
+            <ion-col size="3">
+               <img src="../../assets/imgs/user-blog.svg"/>
+            </ion-col>
+            <ion-col class="author-details" size="9">
+               <span class="author-name">Keerthi Shanmugam</span>
+               <span class="author-job">Dog Specialist</span>
+            </ion-col>
+          </ion-row>
+    </div>
+  </div>
+</ion-content>
